@@ -20,11 +20,11 @@
   }
   
   .todo-item.completed {
-    @apply bg-gray-50;
+    @apply bg-gray-50 border-gray-100;
   }
   
   .todo-text {
-    @apply text-gray-800;
+    @apply text-gray-800 transition-all;
   }
   
   .todo-text.completed {
