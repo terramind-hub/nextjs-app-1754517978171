@@ -6,27 +6,27 @@
   .input-field {
     @apply flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
   }
-
+  
   .btn-primary {
     @apply px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors;
   }
-
+  
   .btn-danger {
     @apply text-red-500 hover:text-red-700 hover:bg-red-50 rounded transition-colors;
   }
-
+  
   .todo-item {
     @apply flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-sm transition-shadow;
   }
-
+  
   .todo-item.completed {
-    @apply bg-gray-50 border-gray-100;
+    @apply bg-gray-50;
   }
-
+  
   .todo-text {
     @apply text-gray-800;
   }
-
+  
   .todo-text.completed {
     @apply line-through text-gray-500;
   }
